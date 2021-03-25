@@ -51,8 +51,8 @@ const CompanyShareTable =
                                         id="company"
                                         className="form-control"
                                         name="company"
-                                        onChange={handleChange}>
-                                        <option value=""/>
+                                        onChange={handleChange}
+                                        value={shareEdit.company}>
                                         {options.map(option => (
                                             <option key={option.id} value={option.id}>
                                                 {option.companyName}
