@@ -28,3 +28,7 @@ O
 src/components/companyShare.jsx,3/6/364e72da18372824d7714d31aafdbb0b4c37c1ac
 N
 src/components/modalWindow.jsx,7/e/7e486afb9050f5da0ad723b854f592021cb8f710
+K
+src/components/notFound.jsx,d/4/d46dddadddb485bc9b5a83c0a4a5bbf89a8bead5
+I
+src/components/select.jsx,d/e/de464a663d1bd460341a83c6e2cfccc6e1a8702b

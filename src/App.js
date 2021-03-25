@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, {Component} from "react";
 import './App.css';
+import {Redirect, Route, Switch} from "react-router-dom";
+import CompanyShare from "./components/companyShare";
+import NavBar from "./components/navBar";
+import Schedule from "./components/schedule";
+import NotFound from "./components/notFound";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+    render() {
+
+        return (
+            <React.Fragment>
+                <NavBar/>
+                <main className="container">
+                    <Switch>
+                        <Route path="/" exact component={CompanyShare}/>
+                        <Route path="/schedule" component={Schedule}/>
+                        <Route path="/not-found" component={NotFound}/>
+                        <Redirect to="/not-found"/>
+                    </Switch>
+                </main>
+            </React.Fragment>
+        );
+    }
 }
 
 export default App;
