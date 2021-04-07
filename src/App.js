@@ -3,7 +3,6 @@ import './App.css';
 import {Redirect, Route, Switch} from "react-router-dom";
 import CompanyShare from "./components/companyShare";
 import NavBar from "./components/navBar";
-import Schedule from "./components/schedule";
 import NotFound from "./components/notFound";
 
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
                 <main className="container">
                     <Switch>
                         <Route path="/" exact component={CompanyShare}/>
-                        <Route path="/schedule" component={Schedule}/>
                         <Route path="/not-found" component={NotFound}/>
                         <Redirect to="/not-found"/>
                     </Switch>

@@ -123,7 +123,8 @@ class CompanyShare extends Component {
                 <Schedule
                     color={color}
                     companyShareForSchedule={companyShareForSchedule}
-                    companies={companies}/>
+                    companies={companies}
+                />
                 <button className="btn btn-info" onClick={this.handleClick}
                         style={{marginBottom: "20px"}}>
                     Add

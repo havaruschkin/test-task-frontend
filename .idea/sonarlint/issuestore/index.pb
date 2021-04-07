@@ -32,3 +32,10 @@ K
 src/components/notFound.jsx,d/4/d46dddadddb485bc9b5a83c0a4a5bbf89a8bead5
 I
 src/components/select.jsx,d/e/de464a663d1bd460341a83c6e2cfccc6e1a8702b
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
